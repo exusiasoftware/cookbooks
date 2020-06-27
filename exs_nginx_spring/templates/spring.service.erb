@@ -1,0 +1,16 @@
+[Unit]
+Description=Spring Boot
+After=syslog.target
+After=network.target[Service]
+User=username
+Type=simple
+
+[Service]
+ExecStart=/usr/bin/java -jar /opt/<%= @java_spring_app_name %>/target/<%= @java_spring_app %>
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=spring
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,9 @@
+---
+username: kitchen
+hostname: localhost
+ssh_key: "/Users/brianrahming/chef-repo/cookbooks/exs_mean_stack/.kitchen/docker_id_rsa"
+image_id: 21bec6fc2b42
+container_id: cbf2f8393cf02dfe1395992d615cb31e02de3dd2b008fe52c52aff34de09e325
+port: 32772
+last_action: setup
+last_error: Kitchen::ActionFailed

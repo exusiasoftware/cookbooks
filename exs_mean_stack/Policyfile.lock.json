@@ -1,0 +1,51 @@
+{
+  "revision_id": "807eb2d20527891096e76b24c35fa0562e3acdd0bf2962bed8fb6696c2927cd3",
+  "name": "exs_mean_stack",
+  "run_list": [
+    "recipe[exs_mean_stack::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "exs_mean_stack": {
+      "version": "0.1.0",
+      "identifier": "b3ffb6d261ddf5d5354f7ba2a8d20618351a34f4",
+      "dotted_decimal_identifier": "50665181509967349.60012785532315858.6701039891700",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": "https://github.com/exusiasoftware/chef-repo.git",
+        "revision": "a7e973a79e0ab596596f94b55b2f90d9f2d63d00",
+        "working_tree_clean": false,
+        "published": true,
+        "synchronized_remote_branches": [
+          "origin/master"
+        ]
+      },
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "exs_mean_stack",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "exs_mean_stack (0.1.0)": [
+
+      ]
+    }
+  }
+}

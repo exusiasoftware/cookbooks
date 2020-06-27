@@ -1,0 +1,146 @@
+I, [2020-05-17T14:45:26.646252 #13707]  INFO -- default-ubuntu-1804: -----> Cleaning up any prior instances of <default-ubuntu-1804>
+I, [2020-05-17T14:45:26.646437 #13707]  INFO -- default-ubuntu-1804: -----> Destroying <default-ubuntu-1804>...
+I, [2020-05-17T14:45:26.647126 #13707]  INFO -- default-ubuntu-1804: Finished destroying <default-ubuntu-1804> (0m0.00s).
+I, [2020-05-17T14:45:26.647467 #13707]  INFO -- default-ubuntu-1804: -----> Testing <default-ubuntu-1804>
+I, [2020-05-17T14:45:26.647581 #13707]  INFO -- default-ubuntu-1804: -----> Creating <default-ubuntu-1804>...
+I, [2020-05-17T14:45:27.878970 #13707]  INFO -- default-ubuntu-1804: Waiting for SSH service on localhost:32772, retrying in 3 seconds
+I, [2020-05-17T14:45:31.099494 #13707]  INFO -- default-ubuntu-1804: [SSH] Established
+I, [2020-05-17T14:45:31.100736 #13707]  INFO -- default-ubuntu-1804: Finished creating <default-ubuntu-1804> (0m4.45s).
+I, [2020-05-17T14:45:31.100868 #13707]  INFO -- default-ubuntu-1804: -----> Converging <default-ubuntu-1804>...
+I, [2020-05-17T14:45:31.102688 #13707]  INFO -- default-ubuntu-1804: Preparing files for transfer
+I, [2020-05-17T14:45:31.102860 #13707]  INFO -- default-ubuntu-1804: Installing cookbooks for Policyfile /Users/brianrahming/chef-repo/cookbooks/exs_mean_stack/Policyfile.rb using `chef install`
+I, [2020-05-17T14:45:32.553584 #13707]  INFO -- default-ubuntu-1804: Installing cookbooks from lock
+I, [2020-05-17T14:45:32.554575 #13707]  INFO -- default-ubuntu-1804: Installing exs_mean_stack 0.1.0
+I, [2020-05-17T14:45:32.590532 #13707]  INFO -- default-ubuntu-1804: Preparing dna.json
+I, [2020-05-17T14:45:32.591162 #13707]  INFO -- default-ubuntu-1804: Exporting cookbook dependencies from Policyfile /var/folders/54/_0fmmmv179bff9qztmnlvbs80000gp/T/default-ubuntu-1804-sandbox-20200517-13707-1z9wed...
+I, [2020-05-17T14:45:34.976706 #13707]  INFO -- default-ubuntu-1804: Exported policy 'exs_mean_stack' to /var/folders/54/_0fmmmv179bff9qztmnlvbs80000gp/T/default-ubuntu-1804-sandbox-20200517-13707-1z9wed
+I, [2020-05-17T14:45:34.976795 #13707]  INFO -- default-ubuntu-1804: 
+I, [2020-05-17T14:45:34.976821 #13707]  INFO -- default-ubuntu-1804: To converge this system with the exported policy, run:
+I, [2020-05-17T14:45:34.976845 #13707]  INFO -- default-ubuntu-1804:   cd /var/folders/54/_0fmmmv179bff9qztmnlvbs80000gp/T/default-ubuntu-1804-sandbox-20200517-13707-1z9wed
+I, [2020-05-17T14:45:34.976870 #13707]  INFO -- default-ubuntu-1804:   chef-client -z
+I, [2020-05-17T14:45:34.995668 #13707]  INFO -- default-ubuntu-1804: Removing non-cookbook files before transfer
+I, [2020-05-17T14:45:34.996678 #13707]  INFO -- default-ubuntu-1804: Preparing validation.pem
+I, [2020-05-17T14:45:34.997287 #13707]  INFO -- default-ubuntu-1804: Preparing client.rb
+I, [2020-05-17T14:45:35.300917 #13707]  INFO -- default-ubuntu-1804: ubuntu 18.04 x86_64
+I, [2020-05-17T14:45:35.301146 #13707]  INFO -- default-ubuntu-1804: Getting information for chef stable 15 for ubuntu...
+I, [2020-05-17T14:45:35.301187 #13707]  INFO -- default-ubuntu-1804: downloading https://omnitruck.chef.io/stable/chef/metadata?v=15&p=ubuntu&pv=18.04&m=x86_64
+I, [2020-05-17T14:45:35.301235 #13707]  INFO -- default-ubuntu-1804:   to file /tmp/install.sh.17/metadata.txt
+I, [2020-05-17T14:45:35.321198 #13707]  INFO -- default-ubuntu-1804: trying wget...
+I, [2020-05-17T14:45:35.928167 #13707]  INFO -- default-ubuntu-1804: sha1	34ee9aa925ba89fab798989e4f03390b8fc915dc
+I, [2020-05-17T14:45:35.928744 #13707]  INFO -- default-ubuntu-1804: sha256	57622d6a6dbf786dd6c829afe09f389b2b742365be19d6cca35ac8c708fa8214
+I, [2020-05-17T14:45:35.929175 #13707]  INFO -- default-ubuntu-1804: url	https://packages.chef.io/files/stable/chef/15.10.12/ubuntu/18.04/chef_15.10.12-1_amd64.deb
+I, [2020-05-17T14:45:35.930944 #13707]  INFO -- default-ubuntu-1804: version	15.10.12
+I, [2020-05-17T14:45:35.932853 #13707]  INFO -- default-ubuntu-1804: downloaded metadata file looks valid...
+I, [2020-05-17T14:45:36.039232 #13707]  INFO -- default-ubuntu-1804: downloading https://packages.chef.io/files/stable/chef/15.10.12/ubuntu/18.04/chef_15.10.12-1_amd64.deb
+I, [2020-05-17T14:45:36.039321 #13707]  INFO -- default-ubuntu-1804:   to file /tmp/install.sh.17/chef_15.10.12-1_amd64.deb
+I, [2020-05-17T14:45:36.040087 #13707]  INFO -- default-ubuntu-1804: trying wget...
+I, [2020-05-17T14:45:38.993778 #13707]  INFO -- default-ubuntu-1804: Comparing checksum with sha256sum...
+I, [2020-05-17T14:45:39.189548 #13707]  INFO -- default-ubuntu-1804: Installing chef 15
+I, [2020-05-17T14:45:39.189617 #13707]  INFO -- default-ubuntu-1804: installing with dpkg...
+I, [2020-05-17T14:45:39.461652 #13707]  INFO -- default-ubuntu-1804: Selecting previously unselected package chef.
+I, [2020-05-17T14:45:39.497913 #13707]  INFO -- default-ubuntu-1804: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 10175 files and directories currently installed.)
+I, [2020-05-17T14:45:39.499338 #13707]  INFO -- default-ubuntu-1804: Preparing to unpack .../chef_15.10.12-1_amd64.deb ...
+I, [2020-05-17T14:45:39.505168 #13707]  INFO -- default-ubuntu-1804: Unpacking chef (15.10.12-1) ...
+I, [2020-05-17T14:45:46.226859 #13707]  INFO -- default-ubuntu-1804: Setting up chef (15.10.12-1) ...
+I, [2020-05-17T14:45:46.387544 #13707]  INFO -- default-ubuntu-1804: Thank you for installing Chef Infra Client! For help getting started visit https://learn.chef.io
+I, [2020-05-17T14:45:46.605824 #13707]  INFO -- default-ubuntu-1804: Transferring files to <default-ubuntu-1804>
+I, [2020-05-17T14:45:48.592612 #13707]  INFO -- default-ubuntu-1804: +---------------------------------------------+
+I, [2020-05-17T14:45:48.592741 #13707]  INFO -- default-ubuntu-1804: [32m✔[0m 2 product licenses accepted.
+I, [2020-05-17T14:45:48.592779 #13707]  INFO -- default-ubuntu-1804: +---------------------------------------------+
+I, [2020-05-17T14:45:48.910001 #13707]  INFO -- default-ubuntu-1804: Starting Chef Infra Client, version 15.10.12
+I, [2020-05-17T14:45:50.070263 #13707]  INFO -- default-ubuntu-1804: [2020-05-17T21:45:50+00:00] WARN: Plugin Network: unable to detect ipaddress
+I, [2020-05-17T14:45:50.474278 #13707]  INFO -- default-ubuntu-1804: [2020-05-17T21:45:50+00:00] ERROR: shard_seed: Failed to get dmi property serial_number: is dmidecode installed?
+I, [2020-05-17T14:45:50.640374 #13707]  INFO -- default-ubuntu-1804: Creating a new client identity for default-ubuntu-1804 using the validator key.
+I, [2020-05-17T14:45:50.771951 #13707]  INFO -- default-ubuntu-1804: Using policy 'exs_mean_stack' at revision '807eb2d20527891096e76b24c35fa0562e3acdd0bf2962bed8fb6696c2927cd3'
+I, [2020-05-17T14:45:50.778742 #13707]  INFO -- default-ubuntu-1804: resolving cookbooks for run list: ["exs_mean_stack::default@0.1.0 (b3ffb6d)"]
+I, [2020-05-17T14:45:50.788477 #13707]  INFO -- default-ubuntu-1804: Synchronizing Cookbooks:
+I, [2020-05-17T14:45:50.811807 #13707]  INFO -- default-ubuntu-1804:   - exs_mean_stack (0.1.0)
+I, [2020-05-17T14:45:50.812980 #13707]  INFO -- default-ubuntu-1804: Installing Cookbook Gems:
+I, [2020-05-17T14:45:50.814676 #13707]  INFO -- default-ubuntu-1804: Compiling Cookbooks...
+I, [2020-05-17T14:45:50.821282 #13707]  INFO -- default-ubuntu-1804: Converging 9 resources
+I, [2020-05-17T14:45:50.822013 #13707]  INFO -- default-ubuntu-1804: Recipe: exs_mean_stack::nginx
+I, [2020-05-17T14:46:03.012261 #13707]  INFO -- default-ubuntu-1804:   * apt_package[nginx] action install
+I, [2020-05-17T14:46:03.016077 #13707]  INFO -- default-ubuntu-1804:     - install version 1.14.0-0ubuntu1.7 of package nginx
+I, [2020-05-17T14:46:03.022450 #13707]  INFO -- default-ubuntu-1804:   * template[/etc/nginx/conf.d/nodewebserver.conf] action create
+I, [2020-05-17T14:46:03.024277 #13707]  INFO -- default-ubuntu-1804:     - create new file /etc/nginx/conf.d/nodewebserver.conf
+I, [2020-05-17T14:46:03.024338 #13707]  INFO -- default-ubuntu-1804:     - update content in file /etc/nginx/conf.d/nodewebserver.conf from none to 4d8d26
+I, [2020-05-17T14:46:03.024492 #13707]  INFO -- default-ubuntu-1804:     --- /etc/nginx/conf.d/nodewebserver.conf	2020-05-17 21:46:03.023274025 +0000
+I, [2020-05-17T14:46:03.025008 #13707]  INFO -- default-ubuntu-1804:     +++ /etc/nginx/conf.d/.chef-nodewebserver20200517-103-2vhwla.conf	2020-05-17 21:46:03.023274025 +0000
+I, [2020-05-17T14:46:03.025458 #13707]  INFO -- default-ubuntu-1804:     @@ -1 +1,11 @@
+I, [2020-05-17T14:46:03.039602 #13707]  INFO -- default-ubuntu-1804:     +server {
+I, [2020-05-17T14:46:03.039683 #13707]  INFO -- default-ubuntu-1804:     +    listen 80;
+I, [2020-05-17T14:46:03.039706 #13707]  INFO -- default-ubuntu-1804:     +    server_name node.rahmingtech.com;
+I, [2020-05-17T14:46:03.039724 #13707]  INFO -- default-ubuntu-1804:     +
+I, [2020-05-17T14:46:03.039750 #13707]  INFO -- default-ubuntu-1804:     +    location / {
+I, [2020-05-17T14:46:03.039767 #13707]  INFO -- default-ubuntu-1804:     +        proxy_set_header   X-Forwarded-For $remote_addr;
+I, [2020-05-17T14:46:03.039972 #13707]  INFO -- default-ubuntu-1804:     +        proxy_set_header   Host $http_host;
+I, [2020-05-17T14:46:03.040000 #13707]  INFO -- default-ubuntu-1804:     +        proxy_pass         http://localhost:3000;
+I, [2020-05-17T14:46:03.040123 #13707]  INFO -- default-ubuntu-1804:     +    }
+I, [2020-05-17T14:46:03.040230 #13707]  INFO -- default-ubuntu-1804:     +}
+I, [2020-05-17T14:46:03.105772 #13707]  INFO -- default-ubuntu-1804:   * service[nginx] action enable (up to date)
+I, [2020-05-17T14:46:03.374504 #13707]  INFO -- default-ubuntu-1804:   * service[nginx] action start
+I, [2020-05-17T14:46:03.375427 #13707]  INFO -- default-ubuntu-1804:     - start service service[nginx]
+I, [2020-05-17T14:46:03.375575 #13707]  INFO -- default-ubuntu-1804: Recipe: exs_mean_stack::mongodb
+I, [2020-05-17T14:46:24.730528 #13707]  INFO -- default-ubuntu-1804:   * apt_package[mongodb] action install
+I, [2020-05-17T14:46:24.730788 #13707]  INFO -- default-ubuntu-1804:     - install version 1:3.6.3-0ubuntu1.1 of package mongodb
+I, [2020-05-17T14:46:24.765768 #13707]  INFO -- default-ubuntu-1804:   * service[mongodb] action enable (up to date)
+I, [2020-05-17T14:46:25.870111 #13707]  INFO -- default-ubuntu-1804:   * service[mongodb] action start
+I, [2020-05-17T14:46:25.870656 #13707]  INFO -- default-ubuntu-1804:     - start service service[mongodb]
+I, [2020-05-17T14:46:25.871112 #13707]  INFO -- default-ubuntu-1804: Recipe: exs_mean_stack::nodejs
+I, [2020-05-17T14:46:33.579581 #13707]  INFO -- default-ubuntu-1804:   * apt_package[nodejs] action install
+I, [2020-05-17T14:46:33.580455 #13707]  INFO -- default-ubuntu-1804:     - install version 8.10.0~dfsg-2ubuntu0.4 of package nodejs
+I, [2020-05-17T14:46:47.021829 #13707]  INFO -- default-ubuntu-1804:   * apt_package[git] action install
+I, [2020-05-17T14:46:47.021935 #13707]  INFO -- default-ubuntu-1804:     - install version 1:2.17.1-1ubuntu0.7 of package git
+I, [2020-05-17T14:46:47.037494 #13707]  INFO -- default-ubuntu-1804:   * apt_update[update] action periodic
+I, [2020-05-17T14:46:47.038780 #13707]  INFO -- default-ubuntu-1804:     - update new lists of packages
+I, [2020-05-17T14:46:47.045011 #13707]  INFO -- default-ubuntu-1804:     * directory[/var/lib/apt/periodic] action create (up to date)
+I, [2020-05-17T14:46:47.048509 #13707]  INFO -- default-ubuntu-1804:     * directory[/etc/apt/apt.conf.d] action create (up to date)
+I, [2020-05-17T14:46:47.058715 #13707]  INFO -- default-ubuntu-1804:     * file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing
+I, [2020-05-17T14:46:47.066010 #13707]  INFO -- default-ubuntu-1804:       - create new file /etc/apt/apt.conf.d/15update-stamp
+I, [2020-05-17T14:46:47.066315 #13707]  INFO -- default-ubuntu-1804:       - update content in file /etc/apt/apt.conf.d/15update-stamp from none to 174cdb
+I, [2020-05-17T14:46:47.066674 #13707]  INFO -- default-ubuntu-1804:       --- /etc/apt/apt.conf.d/15update-stamp	2020-05-17 21:46:47.067669118 +0000
+I, [2020-05-17T14:46:47.067006 #13707]  INFO -- default-ubuntu-1804:       +++ /etc/apt/apt.conf.d/.chef-15update-stamp20200517-103-16dc1gi	2020-05-17 21:46:47.067669118 +0000
+I, [2020-05-17T14:46:47.067231 #13707]  INFO -- default-ubuntu-1804:       @@ -1 +1,2 @@
+I, [2020-05-17T14:46:47.070104 #13707]  INFO -- default-ubuntu-1804:       +APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
+I, [2020-05-17T14:46:50.188625 #13707]  INFO -- default-ubuntu-1804:     * execute[apt-get -q update] action run
+I, [2020-05-17T14:46:50.188791 #13707]  INFO -- default-ubuntu-1804:       - execute ["apt-get", "-q", "update"]
+I, [2020-05-17T14:46:50.189183 #13707]  INFO -- default-ubuntu-1804:   
+I, [2020-05-17T14:47:33.528565 #13707]  INFO -- default-ubuntu-1804:   * apt_package[npm] action install
+I, [2020-05-17T14:47:33.529132 #13707]  INFO -- default-ubuntu-1804:     - install version 3.5.2-0ubuntu4 of package npm
+I, [2020-05-17T14:47:33.552010 #13707]  INFO -- default-ubuntu-1804: 
+I, [2020-05-17T14:47:33.552104 #13707]  INFO -- default-ubuntu-1804: Running handlers:
+I, [2020-05-17T14:47:33.552262 #13707]  INFO -- default-ubuntu-1804: Running handlers complete
+I, [2020-05-17T14:47:33.552676 #13707]  INFO -- default-ubuntu-1804: Chef Infra Client finished, 11/15 resources updated in 01 minutes 44 seconds
+I, [2020-05-17T14:47:33.576942 #13707]  INFO -- default-ubuntu-1804: Downloading files from <default-ubuntu-1804>
+I, [2020-05-17T14:47:33.581670 #13707]  INFO -- default-ubuntu-1804: Finished converging <default-ubuntu-1804> (2m2.48s).
+I, [2020-05-17T14:47:33.581838 #13707]  INFO -- default-ubuntu-1804: -----> Setting up <default-ubuntu-1804>...
+I, [2020-05-17T14:47:33.582677 #13707]  INFO -- default-ubuntu-1804: Finished setting up <default-ubuntu-1804> (0m0.00s).
+I, [2020-05-17T14:47:33.582785 #13707]  INFO -- default-ubuntu-1804: -----> Verifying <default-ubuntu-1804>...
+I, [2020-05-17T14:47:34.014665 #13707]  INFO -- default-ubuntu-1804: Loaded tests from {:path=>".Users.brianrahming.chef-repo.cookbooks.exs_mean_stack.test.integration.default"} 
+E, [2020-05-17T14:47:34.948221 #13707] ERROR -- default-ubuntu-1804: Verify failed on instance <default-ubuntu-1804>.
+E, [2020-05-17T14:47:34.948329 #13707] ERROR -- default-ubuntu-1804: ------Exception-------
+E, [2020-05-17T14:47:34.948356 #13707] ERROR -- default-ubuntu-1804: Class: Kitchen::ActionFailed
+E, [2020-05-17T14:47:34.948375 #13707] ERROR -- default-ubuntu-1804: Message: InSpec Runner returns 1
+E, [2020-05-17T14:47:34.948392 #13707] ERROR -- default-ubuntu-1804: ----------------------
+E, [2020-05-17T14:47:34.948408 #13707] ERROR -- default-ubuntu-1804: ------Backtrace-------
+E, [2020-05-17T14:47:34.948425 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/kitchen-inspec-1.3.1/lib/kitchen/verifier/inspec.rb:98:in `call'
+E, [2020-05-17T14:47:34.948443 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:459:in `block in verify_action'
+E, [2020-05-17T14:47:34.948459 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:552:in `synchronize_or_call'
+E, [2020-05-17T14:47:34.948477 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:514:in `block in action'
+E, [2020-05-17T14:47:34.948494 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2020-05-17T14:47:34.948510 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:513:in `action'
+E, [2020-05-17T14:47:34.948527 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:451:in `verify_action'
+E, [2020-05-17T14:47:34.948560 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2020-05-17T14:47:34.948576 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2020-05-17T14:47:34.948589 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2020-05-17T14:47:34.948602 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:380:in `each'
+E, [2020-05-17T14:47:34.948615 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2020-05-17T14:47:34.948628 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:162:in `verify'
+E, [2020-05-17T14:47:34.948641 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:191:in `block in test'
+E, [2020-05-17T14:47:34.948653 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2020-05-17T14:47:34.948666 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:187:in `test'
+E, [2020-05-17T14:47:34.948679 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/command.rb:198:in `public_send'
+E, [2020-05-17T14:47:34.948692 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/command.rb:198:in `run_action_in_thread'
+E, [2020-05-17T14:47:34.948705 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2020-05-17T14:47:34.948718 #13707] ERROR -- default-ubuntu-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/logging-2.2.2/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+E, [2020-05-17T14:47:34.948730 #13707] ERROR -- default-ubuntu-1804: ----End Backtrace-----

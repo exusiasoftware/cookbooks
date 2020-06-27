@@ -1,0 +1,204 @@
+I, [2020-05-17T14:42:13.966620 #13420]  INFO -- default-centos-8: -----> Cleaning up any prior instances of <default-centos-8>
+I, [2020-05-17T14:42:14.002523 #13420]  INFO -- default-centos-8: -----> Destroying <default-centos-8>...
+I, [2020-05-17T14:42:15.566419 #13420]  INFO -- default-centos-8: Finished destroying <default-centos-8> (0m1.56s).
+I, [2020-05-17T14:42:15.566805 #13420]  INFO -- default-centos-8: -----> Testing <default-centos-8>
+I, [2020-05-17T14:42:15.566929 #13420]  INFO -- default-centos-8: -----> Creating <default-centos-8>...
+I, [2020-05-17T14:42:18.747121 #13420]  INFO -- default-centos-8: Waiting for SSH service on localhost:32771, retrying in 3 seconds
+I, [2020-05-17T14:42:22.264901 #13420]  INFO -- default-centos-8: [SSH] Established
+I, [2020-05-17T14:42:22.265926 #13420]  INFO -- default-centos-8: Finished creating <default-centos-8> (0m6.70s).
+I, [2020-05-17T14:42:22.266052 #13420]  INFO -- default-centos-8: -----> Converging <default-centos-8>...
+I, [2020-05-17T14:42:22.311599 #13420]  INFO -- default-centos-8: Preparing files for transfer
+I, [2020-05-17T14:42:22.311811 #13420]  INFO -- default-centos-8: Installing cookbooks for Policyfile /Users/brianrahming/chef-repo/cookbooks/exs_mean_stack/Policyfile.rb using `chef install`
+I, [2020-05-17T14:42:25.113962 #13420]  INFO -- default-centos-8: Installing cookbooks from lock
+I, [2020-05-17T14:42:25.115163 #13420]  INFO -- default-centos-8: Installing exs_mean_stack 0.1.0
+I, [2020-05-17T14:42:25.140070 #13420]  INFO -- default-centos-8: Preparing dna.json
+I, [2020-05-17T14:42:25.140993 #13420]  INFO -- default-centos-8: Exporting cookbook dependencies from Policyfile /var/folders/54/_0fmmmv179bff9qztmnlvbs80000gp/T/default-centos-8-sandbox-20200517-13420-6nxcq3...
+I, [2020-05-17T14:42:27.552511 #13420]  INFO -- default-centos-8: Exported policy 'exs_mean_stack' to /var/folders/54/_0fmmmv179bff9qztmnlvbs80000gp/T/default-centos-8-sandbox-20200517-13420-6nxcq3
+I, [2020-05-17T14:42:27.552603 #13420]  INFO -- default-centos-8: 
+I, [2020-05-17T14:42:27.552636 #13420]  INFO -- default-centos-8: To converge this system with the exported policy, run:
+I, [2020-05-17T14:42:27.552671 #13420]  INFO -- default-centos-8:   cd /var/folders/54/_0fmmmv179bff9qztmnlvbs80000gp/T/default-centos-8-sandbox-20200517-13420-6nxcq3
+I, [2020-05-17T14:42:27.552696 #13420]  INFO -- default-centos-8:   chef-client -z
+I, [2020-05-17T14:42:27.572681 #13420]  INFO -- default-centos-8: Removing non-cookbook files before transfer
+I, [2020-05-17T14:42:27.573537 #13420]  INFO -- default-centos-8: Preparing validation.pem
+I, [2020-05-17T14:42:27.858466 #13420]  INFO -- default-centos-8: Preparing client.rb
+I, [2020-05-17T14:42:28.156440 #13420]  INFO -- default-centos-8: -----> Installing Chef install only if missing package
+I, [2020-05-17T14:42:28.272303 #13420]  INFO -- default-centos-8: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2020-05-17T14:42:28.384373 #13420]  INFO -- default-centos-8: Trying curl...
+I, [2020-05-17T14:42:28.645340 #13420]  INFO -- default-centos-8: Download complete.
+I, [2020-05-17T14:42:28.694413 #13420]  INFO -- default-centos-8: el 8 x86_64
+I, [2020-05-17T14:42:28.694655 #13420]  INFO -- default-centos-8: Getting information for chef stable  for el...
+I, [2020-05-17T14:42:28.694694 #13420]  INFO -- default-centos-8: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=el&pv=8&m=x86_64
+I, [2020-05-17T14:42:28.694721 #13420]  INFO -- default-centos-8:   to file /tmp/install.sh.48/metadata.txt
+I, [2020-05-17T14:42:28.695880 #13420]  INFO -- default-centos-8: trying curl...
+I, [2020-05-17T14:42:29.175324 #13420]  INFO -- default-centos-8: sha1	d83b40e2e8a100eab14199f4b21781b86b0223a6
+I, [2020-05-17T14:42:29.175406 #13420]  INFO -- default-centos-8: sha256	d6c538bef603eccbcbd999b222dbb63af64a2e7428c50b94252cef0024723fa3
+I, [2020-05-17T14:42:29.175435 #13420]  INFO -- default-centos-8: url	https://packages.chef.io/files/stable/chef/16.1.0/el/8/chef-16.1.0-1.el7.x86_64.rpm
+I, [2020-05-17T14:42:29.175613 #13420]  INFO -- default-centos-8: version	16.1.0
+I, [2020-05-17T14:42:29.180944 #13420]  INFO -- default-centos-8: downloaded metadata file looks valid...
+I, [2020-05-17T14:42:29.208705 #13420]  INFO -- default-centos-8: downloading https://packages.chef.io/files/stable/chef/16.1.0/el/8/chef-16.1.0-1.el7.x86_64.rpm
+I, [2020-05-17T14:42:29.208787 #13420]  INFO -- default-centos-8:   to file /tmp/install.sh.48/chef-16.1.0-1.el7.x86_64.rpm
+I, [2020-05-17T14:42:29.212773 #13420]  INFO -- default-centos-8: trying curl...
+I, [2020-05-17T14:42:30.944696 #13420]  INFO -- default-centos-8: Comparing checksum with sha256sum...
+I, [2020-05-17T14:42:31.102015 #13420]  INFO -- default-centos-8: 
+I, [2020-05-17T14:42:31.102094 #13420]  INFO -- default-centos-8: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2020-05-17T14:42:31.102130 #13420]  INFO -- default-centos-8: 
+I, [2020-05-17T14:42:31.102155 #13420]  INFO -- default-centos-8: You are installing a package without a version pin.  If you are installing
+I, [2020-05-17T14:42:31.102176 #13420]  INFO -- default-centos-8: on production servers via an automated process this is DANGEROUS and you will
+I, [2020-05-17T14:42:31.102197 #13420]  INFO -- default-centos-8: be upgraded without warning on new releases, even to new major releases.
+I, [2020-05-17T14:42:31.102413 #13420]  INFO -- default-centos-8: Letting the version float is only appropriate in desktop, test, development or
+I, [2020-05-17T14:42:31.102459 #13420]  INFO -- default-centos-8: CI/CD environments.
+I, [2020-05-17T14:42:31.102487 #13420]  INFO -- default-centos-8: 
+I, [2020-05-17T14:42:31.102506 #13420]  INFO -- default-centos-8: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2020-05-17T14:42:31.102525 #13420]  INFO -- default-centos-8: 
+I, [2020-05-17T14:42:31.102758 #13420]  INFO -- default-centos-8: Installing chef 
+I, [2020-05-17T14:42:31.102788 #13420]  INFO -- default-centos-8: installing with rpm...
+I, [2020-05-17T14:42:31.306866 #13420]  INFO -- default-centos-8: warning: /tmp/install.sh.48/chef-16.1.0-1.el7.x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 83ef826a: NOKEY
+I, [2020-05-17T14:42:31.609777 #13420]  INFO -- default-centos-8: Verifying...                                                            (100%)#                                 (100%)##                                (100%)###                               (100%)####                              (100%)#####                             (100%)######                            (100%)#######                           (100%)########                          (100%)#########                         (100%)##########                        (100%)###########                       (100%)############                      (100%)#############                     (100%)##############                    (100%)###############                   (100%)################                  (100%)#################                 (100%)##################                (100%)###################               (100%)####################              (100%)#####################             (100%)######################            (100%)#######################           (100%)########################          (100%)#########################         (100%)##########################        (100%)###########################       (100%)############################      (100%)#############################     (100%)##############################    (100%)###############################   (100%)################################  (100%)################################# (100%)################################# [100%]
+I, [2020-05-17T14:42:32.498431 #13420]  INFO -- default-centos-8: Preparing...                                                            (100%)#                                 (100%)##                                (100%)###                               (100%)####                              (100%)#####                             (100%)######                            (100%)#######                           (100%)########                          (100%)#########                         (100%)##########                        (100%)###########                       (100%)############                      (100%)#############                     (100%)##############                    (100%)###############                   (100%)################                  (100%)#################                 (100%)##################                (100%)###################               (100%)####################              (100%)#####################             (100%)######################            (100%)#######################           (100%)########################          (100%)#########################         (100%)##########################        (100%)###########################       (100%)############################      (100%)#############################     (100%)##############################    (100%)###############################   (100%)################################  (100%)################################# (100%)################################# [100%]
+I, [2020-05-17T14:42:32.513444 #13420]  INFO -- default-centos-8: Updating / installing...
+I, [2020-05-17T14:42:35.663648 #13420]  INFO -- default-centos-8:    1:chef-16.1.0-1.el7                                                  (  1%)#                                 (  4%)##                                (  7%)###                               ( 10%)####                              ( 13%)#####                             ( 16%)######                            ( 19%)#######                           ( 22%)########                          ( 25%)#########                         ( 28%)##########                        ( 31%)###########                       ( 34%)############                      ( 37%)#############                     ( 40%)##############                    ( 43%)###############                   ( 46%)################                  ( 49%)#################                 ( 52%)##################                ( 54%)###################               ( 57%)####################              ( 60%)#####################             ( 63%)######################            ( 66%)#######################           ( 69%)########################          ( 72%)#########################         ( 75%)##########################        ( 78%)###########################       ( 81%)############################      ( 84%)#############################     ( 87%)##############################    ( 90%)###############################   ( 93%)################################  ( 96%)################################# ( 99%)################################# [100%]
+I, [2020-05-17T14:42:36.035500 #13420]  INFO -- default-centos-8: Thank you for installing Chef Infra Client! For help getting started visit https://learn.chef.io
+I, [2020-05-17T14:42:36.153787 #13420]  INFO -- default-centos-8: Transferring files to <default-centos-8>
+I, [2020-05-17T14:42:40.419136 #13420]  INFO -- default-centos-8: +---------------------------------------------+
+I, [2020-05-17T14:42:40.419960 #13420]  INFO -- default-centos-8: [32m✔[0m 2 product licenses accepted.
+I, [2020-05-17T14:42:40.420405 #13420]  INFO -- default-centos-8: +---------------------------------------------+
+I, [2020-05-17T14:42:40.877661 #13420]  INFO -- default-centos-8: Starting Chef Infra Client, version 16.1.0
+I, [2020-05-17T14:42:41.805542 #13420]  INFO -- default-centos-8: [2020-05-17T21:42:41+00:00] ERROR: shard_seed: Failed to get dmi property serial_number: is dmidecode installed?
+I, [2020-05-17T14:42:42.157332 #13420]  INFO -- default-centos-8: Creating a new client identity for default-centos-8 using the validator key.
+I, [2020-05-17T14:42:42.331132 #13420]  INFO -- default-centos-8: Using policy 'exs_mean_stack' at revision '807eb2d20527891096e76b24c35fa0562e3acdd0bf2962bed8fb6696c2927cd3'
+I, [2020-05-17T14:42:42.342366 #13420]  INFO -- default-centos-8: resolving cookbooks for run list: ["exs_mean_stack::default@0.1.0 (b3ffb6d)"]
+I, [2020-05-17T14:42:42.364881 #13420]  INFO -- default-centos-8: Synchronizing Cookbooks:
+I, [2020-05-17T14:42:42.397626 #13420]  INFO -- default-centos-8:   - exs_mean_stack (0.1.0)
+I, [2020-05-17T14:42:42.398695 #13420]  INFO -- default-centos-8: Installing Cookbook Gems:
+I, [2020-05-17T14:42:42.402477 #13420]  INFO -- default-centos-8: Compiling Cookbooks...
+I, [2020-05-17T14:42:42.412373 #13420]  INFO -- default-centos-8: Converging 8 resources
+I, [2020-05-17T14:42:42.413180 #13420]  INFO -- default-centos-8: Recipe: exs_mean_stack::nginx
+I, [2020-05-17T14:42:58.446754 #13420]  INFO -- default-centos-8:   * dnf_package[nginx] action install
+I, [2020-05-17T14:42:58.447732 #13420]  INFO -- default-centos-8:     - install version 1:1.14.1-9.module_el8.0.0+184+e34fea82.x86_64 of package nginx
+I, [2020-05-17T14:42:58.460474 #13420]  INFO -- default-centos-8:   * template[/etc/nginx/conf.d/nodewebserver.conf] action create
+I, [2020-05-17T14:42:58.463246 #13420]  INFO -- default-centos-8:     - create new file /etc/nginx/conf.d/nodewebserver.conf
+I, [2020-05-17T14:42:58.465354 #13420]  INFO -- default-centos-8:     - update content in file /etc/nginx/conf.d/nodewebserver.conf from none to 4d8d26
+I, [2020-05-17T14:42:58.469899 #13420]  INFO -- default-centos-8:     --- /etc/nginx/conf.d/nodewebserver.conf	2020-05-17 21:42:58.480602193 +0000
+I, [2020-05-17T14:42:58.475946 #13420]  INFO -- default-centos-8:     +++ /etc/nginx/conf.d/.chef-nodewebserver20200517-255-mspdhl.conf	2020-05-17 21:42:58.479602193 +0000
+I, [2020-05-17T14:42:58.476160 #13420]  INFO -- default-centos-8:     @@ -1 +1,11 @@
+I, [2020-05-17T14:42:58.476576 #13420]  INFO -- default-centos-8:     +server {
+I, [2020-05-17T14:42:58.476840 #13420]  INFO -- default-centos-8:     +    listen 80;
+I, [2020-05-17T14:42:58.477013 #13420]  INFO -- default-centos-8:     +    server_name node.rahmingtech.com;
+I, [2020-05-17T14:42:58.477170 #13420]  INFO -- default-centos-8:     +
+I, [2020-05-17T14:42:58.477315 #13420]  INFO -- default-centos-8:     +    location / {
+I, [2020-05-17T14:42:58.477463 #13420]  INFO -- default-centos-8:     +        proxy_set_header   X-Forwarded-For $remote_addr;
+I, [2020-05-17T14:42:58.477658 #13420]  INFO -- default-centos-8:     +        proxy_set_header   Host $http_host;
+I, [2020-05-17T14:42:58.477833 #13420]  INFO -- default-centos-8:     +        proxy_pass         http://localhost:3000;
+I, [2020-05-17T14:42:58.477990 #13420]  INFO -- default-centos-8:     +    }
+I, [2020-05-17T14:42:58.478133 #13420]  INFO -- default-centos-8:     +}
+I, [2020-05-17T14:42:58.538739 #13420]  INFO -- default-centos-8:   * service[nginx] action enable
+I, [2020-05-17T14:42:58.541265 #13420]  INFO -- default-centos-8:     * service[nginx]: Service is not known to chkconfig.
+I, [2020-05-17T14:42:58.542025 #13420]  INFO -- default-centos-8:     ================================================================================
+I, [2020-05-17T14:42:58.542843 #13420]  INFO -- default-centos-8:     Error executing action `enable` on resource 'service[nginx]'
+I, [2020-05-17T14:42:58.543691 #13420]  INFO -- default-centos-8:     ================================================================================
+I, [2020-05-17T14:42:58.544905 #13420]  INFO -- default-centos-8:     
+I, [2020-05-17T14:42:58.545580 #13420]  INFO -- default-centos-8:     Chef::Exceptions::Service
+I, [2020-05-17T14:42:58.546555 #13420]  INFO -- default-centos-8:     -------------------------
+I, [2020-05-17T14:42:58.547481 #13420]  INFO -- default-centos-8:     service[nginx]: Service is not known to chkconfig.
+I, [2020-05-17T14:42:58.547652 #13420]  INFO -- default-centos-8:     
+I, [2020-05-17T14:42:58.550071 #13420]  INFO -- default-centos-8:     Resource Declaration:
+I, [2020-05-17T14:42:58.552389 #13420]  INFO -- default-centos-8:     ---------------------
+I, [2020-05-17T14:42:58.556160 #13420]  INFO -- default-centos-8:     # In /tmp/kitchen/cache/cookbooks/exs_mean_stack/recipes/nginx.rb
+I, [2020-05-17T14:42:58.557574 #13420]  INFO -- default-centos-8:     
+I, [2020-05-17T14:42:58.559121 #13420]  INFO -- default-centos-8:      18: service 'nginx' do
+I, [2020-05-17T14:42:58.559798 #13420]  INFO -- default-centos-8:      19:     action [:enable, :start]
+I, [2020-05-17T14:42:58.559887 #13420]  INFO -- default-centos-8:      20: end
+I, [2020-05-17T14:42:58.559917 #13420]  INFO -- default-centos-8:      21:  
+I, [2020-05-17T14:42:58.560142 #13420]  INFO -- default-centos-8:     
+I, [2020-05-17T14:42:58.561484 #13420]  INFO -- default-centos-8:     Compiled Resource:
+I, [2020-05-17T14:42:58.561536 #13420]  INFO -- default-centos-8:     ------------------
+I, [2020-05-17T14:42:58.562693 #13420]  INFO -- default-centos-8:     # Declared in /tmp/kitchen/cache/cookbooks/exs_mean_stack/recipes/nginx.rb:18:in `from_file'
+I, [2020-05-17T14:42:58.563298 #13420]  INFO -- default-centos-8:     
+I, [2020-05-17T14:42:58.565517 #13420]  INFO -- default-centos-8:     service("nginx") do
+I, [2020-05-17T14:42:58.565679 #13420]  INFO -- default-centos-8:       action [:enable, :start]
+I, [2020-05-17T14:42:58.567477 #13420]  INFO -- default-centos-8:       default_guard_interpreter :default
+I, [2020-05-17T14:42:58.567546 #13420]  INFO -- default-centos-8:       declared_type :service
+I, [2020-05-17T14:42:58.567573 #13420]  INFO -- default-centos-8:       cookbook_name "exs_mean_stack"
+I, [2020-05-17T14:42:58.567812 #13420]  INFO -- default-centos-8:       recipe_name "nginx"
+I, [2020-05-17T14:42:58.568266 #13420]  INFO -- default-centos-8:       service_name "nginx"
+I, [2020-05-17T14:42:58.568306 #13420]  INFO -- default-centos-8:     end
+I, [2020-05-17T14:42:58.568328 #13420]  INFO -- default-centos-8:     
+I, [2020-05-17T14:42:58.570112 #13420]  INFO -- default-centos-8:     System Info:
+I, [2020-05-17T14:42:58.574125 #13420]  INFO -- default-centos-8:     ------------
+I, [2020-05-17T14:42:58.574197 #13420]  INFO -- default-centos-8:     chef_version=16.1.0
+I, [2020-05-17T14:42:58.574222 #13420]  INFO -- default-centos-8:     platform=centos
+I, [2020-05-17T14:42:58.574317 #13420]  INFO -- default-centos-8:     platform_version=8.1.1911
+I, [2020-05-17T14:42:58.574360 #13420]  INFO -- default-centos-8:     ruby=ruby 2.7.1p83 (2020-03-31 revision a0c7c23c9c) [x86_64-linux]
+I, [2020-05-17T14:42:58.574384 #13420]  INFO -- default-centos-8:     program_name=/opt/chef/bin/chef-client
+I, [2020-05-17T14:42:58.574404 #13420]  INFO -- default-centos-8:     executable=/opt/chef/bin/chef-client
+I, [2020-05-17T14:42:58.574423 #13420]  INFO -- default-centos-8:     
+I, [2020-05-17T14:42:58.575396 #13420]  INFO -- default-centos-8: 
+I, [2020-05-17T14:42:58.576383 #13420]  INFO -- default-centos-8: Running handlers:
+I, [2020-05-17T14:42:58.577427 #13420]  INFO -- default-centos-8: [2020-05-17T21:42:58+00:00] ERROR: Running exception handlers
+I, [2020-05-17T14:42:58.578303 #13420]  INFO -- default-centos-8: Running handlers complete
+I, [2020-05-17T14:42:58.579434 #13420]  INFO -- default-centos-8: [2020-05-17T21:42:58+00:00] ERROR: Exception handlers complete
+I, [2020-05-17T14:42:58.580718 #13420]  INFO -- default-centos-8: Chef Infra Client failed. 2 resources updated in 17 seconds
+I, [2020-05-17T14:42:58.583436 #13420]  INFO -- default-centos-8: [2020-05-17T21:42:58+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2020-05-17T14:42:58.585079 #13420]  INFO -- default-centos-8: [2020-05-17T21:42:58+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2020-05-17T14:42:58.586320 #13420]  INFO -- default-centos-8: [2020-05-17T21:42:58+00:00] FATAL: Chef::Exceptions::Service: service[nginx] (exs_mean_stack::nginx line 18) had an error: Chef::Exceptions::Service: service[nginx]: Service is not known to chkconfig.
+E, [2020-05-17T14:42:58.628566 #13420] ERROR -- default-centos-8: Converge failed on instance <default-centos-8>.
+E, [2020-05-17T14:42:58.628706 #13420] ERROR -- default-centos-8: ------Exception-------
+E, [2020-05-17T14:42:58.628729 #13420] ERROR -- default-centos-8: Class: Kitchen::ActionFailed
+E, [2020-05-17T14:42:58.628745 #13420] ERROR -- default-centos-8: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2020-05-17T14:42:58.628781 #13420] ERROR -- default-centos-8: ----------------------
+E, [2020-05-17T14:42:58.628796 #13420] ERROR -- default-centos-8: ------Backtrace-------
+E, [2020-05-17T14:42:58.628808 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/provisioner/base.rb:95:in `rescue in call'
+E, [2020-05-17T14:42:58.628822 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/provisioner/base.rb:94:in `call'
+E, [2020-05-17T14:42:58.628835 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:409:in `block in converge_action'
+E, [2020-05-17T14:42:58.628850 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:552:in `synchronize_or_call'
+E, [2020-05-17T14:42:58.628863 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:514:in `block in action'
+E, [2020-05-17T14:42:58.628875 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2020-05-17T14:42:58.628888 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:513:in `action'
+E, [2020-05-17T14:42:58.628901 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:404:in `converge_action'
+E, [2020-05-17T14:42:58.628913 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2020-05-17T14:42:58.628926 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2020-05-17T14:42:58.628939 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2020-05-17T14:42:58.628951 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:380:in `each'
+E, [2020-05-17T14:42:58.628964 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2020-05-17T14:42:58.628977 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:162:in `verify'
+E, [2020-05-17T14:42:58.628990 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:191:in `block in test'
+E, [2020-05-17T14:42:58.629003 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2020-05-17T14:42:58.629025 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:187:in `test'
+E, [2020-05-17T14:42:58.629037 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/command.rb:198:in `public_send'
+E, [2020-05-17T14:42:58.629049 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/command.rb:198:in `run_action_in_thread'
+E, [2020-05-17T14:42:58.629062 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2020-05-17T14:42:58.629085 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/logging-2.2.2/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+E, [2020-05-17T14:42:58.629107 #13420] ERROR -- default-centos-8: ----End Backtrace-----
+E, [2020-05-17T14:42:58.629143 #13420] ERROR -- default-centos-8: ---Nested Exception---
+E, [2020-05-17T14:42:58.629165 #13420] ERROR -- default-centos-8: Class: Kitchen::Transport::SshFailed
+E, [2020-05-17T14:42:58.629178 #13420] ERROR -- default-centos-8: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2020-05-17T14:42:58.629190 #13420] ERROR -- default-centos-8: ----------------------
+E, [2020-05-17T14:42:58.629202 #13420] ERROR -- default-centos-8: ------Backtrace-------
+E, [2020-05-17T14:42:58.629224 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/provisioner/base.rb:95:in `rescue in call'
+E, [2020-05-17T14:42:58.629237 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/provisioner/base.rb:94:in `call'
+E, [2020-05-17T14:42:58.629249 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:409:in `block in converge_action'
+E, [2020-05-17T14:42:58.629273 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:552:in `synchronize_or_call'
+E, [2020-05-17T14:42:58.629295 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:514:in `block in action'
+E, [2020-05-17T14:42:58.629319 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2020-05-17T14:42:58.629346 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:513:in `action'
+E, [2020-05-17T14:42:58.629358 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:404:in `converge_action'
+E, [2020-05-17T14:42:58.629371 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2020-05-17T14:42:58.629415 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2020-05-17T14:42:58.629448 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2020-05-17T14:42:58.629465 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:380:in `each'
+E, [2020-05-17T14:42:58.629479 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2020-05-17T14:42:58.629493 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:162:in `verify'
+E, [2020-05-17T14:42:58.629506 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:191:in `block in test'
+E, [2020-05-17T14:42:58.629520 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2020-05-17T14:42:58.629546 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/instance.rb:187:in `test'
+E, [2020-05-17T14:42:58.629559 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/command.rb:198:in `public_send'
+E, [2020-05-17T14:42:58.629582 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/command.rb:198:in `run_action_in_thread'
+E, [2020-05-17T14:42:58.629622 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.3.4/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2020-05-17T14:42:58.629637 #13420] ERROR -- default-centos-8: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/logging-2.2.2/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+E, [2020-05-17T14:42:58.629660 #13420] ERROR -- default-centos-8: ----End Backtrace-----
