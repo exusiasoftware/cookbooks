@@ -4,6 +4,6 @@
 #
 # Copyright:: 2020, Brian Rahming, All Rights Reserved.
 execute "Download Image" do
-    command "docker pull tomcat"
-    command "docker run -p 80:8080 -d --name tomcat tomcat"
+    command "docker pull exusiasoftware/customer-api"
+    command "docker run -d -p 80:8080 --name customer-api exusiasoftware/customer-api:latest"
 end
