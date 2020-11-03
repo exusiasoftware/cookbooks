@@ -7,10 +7,10 @@
 
 if node['platform'] == 'centos' 
 
-   template '/etc/yum.repos.d/mongodb-org.repo' do
+   template '/etc/yum.repos.d/mongodb-org-4.0.repo' do
          source 'mongodb-org.repo.erb'
          action :create 
-         not_if { ::File.exist?('/etc/yum.repos.d/mongodb-org.repo') }
+         not_if { ::File.exist?('/etc/yum.repos.d/mongodb-org-4.0.repo') }
     end  
 
     package 'mongodb-org'
