@@ -1,8 +1,8 @@
  server {
     listen 80;
     listen 443 ssl http2;
-    server_name .<%= site_name %>;
-    root "/var/www/html/<%= site_name %>/public";
+    server_name .<%= @site_name %>;
+    root "/var/www/html/<%= @site_name %>/public";
 
     index index.html index.htm index.php;
  
