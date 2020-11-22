@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Chef
 .chef/*.pem
 .chef/encrypted_data_bag_secret
@@ -39,6 +40,10 @@ Session.vim
 .netrwhist
 *~
 
+=======
+.kitchen
+.DS_Store
+>>>>>>> 9a7c0672848313f64dfc446832edab318c760002
 # OS X
 .DS_Store
 .AppleDouble
@@ -46,6 +51,7 @@ Session.vim
 Icon
 ._*
 .Spotlight-V100
+<<<<<<< HEAD
 .Trashes
 
 # Windows
@@ -56,3 +62,6 @@ $RECYCLE.BIN/
 
 
 cookbooks/.kitchen
+=======
+.Trashes
+>>>>>>> 9a7c0672848313f64dfc446832edab318c760002

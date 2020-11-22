@@ -10,7 +10,10 @@ server_name = 'node.rahmingtech.com'
 
 package 'nginx'
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9a7c0672848313f64dfc446832edab318c760002
 template '/etc/nginx/conf.d/node.rahmingtech.com.conf' do
     source 'node.rahmingtech.com.conf.erb'
     action :create 
