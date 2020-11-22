@@ -26,6 +26,9 @@ end
 
 template "/etc/nginx/sites-enabled/#{site_name}" do
     source 'site_domain.erb'
+    owner 'nginx'
+    group 'nginx'
+    mode '0755'
     action :create 
     variables(site_name: site_name) 
 end
