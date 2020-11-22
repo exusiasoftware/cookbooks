@@ -5,10 +5,6 @@
 # Copyright:: 2020, The Authors, All Rights Reserved.
 site_name = 'rahmingtech.link'
 
-if os.family == 'redhat'
-  package 'epel-release'
-end    
-
 package 'nginx'
 
 directory '/etc/nginx/sites-enabled/' do
