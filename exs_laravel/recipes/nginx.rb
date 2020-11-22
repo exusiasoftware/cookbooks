@@ -5,7 +5,7 @@
 # Copyright:: 2020, The Authors, All Rights Reserved.
 site_name = 'rahmingtech.link'
 
-# package 'epel-release'
+package 'epel-release'
 package 'nginx'
 
 directory '/etc/nginx/sites-enabled/' do
