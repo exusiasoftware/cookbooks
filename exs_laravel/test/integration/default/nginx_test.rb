@@ -12,10 +12,25 @@ end
 
 # This is an example test, replace it with your own test.
 describe port(80), :skip do
-  it { should_be_listening }
+  it { be_listening }
 end
-
 
 describe package('nginx') do
   it { should be_installed }
+end
+
+describe directory('/var/www/html/rahmingtech.link') do
+  it { should exist }
+end
+
+describe file('/etc/nginx/sites-enabled/rahmingtech.link') do
+  it { should exist  }
+end
+
+describe service('nginx') do
+  it { should be_enabled }
+end
+
+describe service('nginx') do
+  it { should be_running }
 end

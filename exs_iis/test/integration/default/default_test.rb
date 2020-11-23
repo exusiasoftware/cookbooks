@@ -1,4 +1,4 @@
-# InSpec test for recipe exs_laravel::default
+# InSpec test for recipe exs_iis::default
 
 # The InSpec reference, with examples and extensive documentation, can be
 # found at https://www.inspec.io/docs/reference/resources/
@@ -10,14 +10,7 @@ unless os.windows?
   end
 end
 
-describe package('mysql') do
-  it { should be_installed }
-end
-
-describe service('mysql') do
-  it { should be_enabled }
-end
-
-describe service('mysql') do
-  it { should be_running }
+# This is an example test, replace it with your own test.
+describe port(80), :skip do
+  it { should_not be_listening }
 end
